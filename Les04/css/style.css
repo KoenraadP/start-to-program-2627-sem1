@@ -1,0 +1,21 @@
+h1, h2 {
+    font-style: italic;
+    background-color: greenyellow;
+}
+
+/* p {
+    visibility: hidden;
+} */
+
+/* class --> alle elementen met deze class worden onzichtbaar */
+.invisible {
+    visibility: hidden;
+}
+
+#main-title {
+    font-size: 100px;
+}
+
+/* h2 {
+    font-style: italic;
+} */
