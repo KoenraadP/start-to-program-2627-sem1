@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creo Quiz</title>
+    <style>
+        #questions {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> QUIZ </h1>
+    <div id="questions">
+        <p> Wat is het adres van <span style="font-size:24px">Creo</span> campus Klara? </p>
+        <p> Wat is het adres van Creo campus Kortrijk? </p>
+    </div>
+    <div>
+        <button id="btn-answers">Toon antwoorden</button>
+    </div>
+    <div id="answers" hidden>
+        <p> Arme-Klarenstraat 75 – Roeselare </p>
+        <p> Scheutistenlaan 12 – Kortrijk </p>
+    </div>
+
+    <script>
+        const btnAnswers = document.getElementById("btn-answers");
+        const divAnswers = document.getElementById("answers");
+
+        btnAnswers.addEventListener("click", showAnswers);
+
+        function showAnswers() {
+            if (divAnswers.hidden === true) divAnswers.hidden = false;
+            else divAnswers.hidden = true;
+        }
+    </script>
+</body>
+
+</html>
