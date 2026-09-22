@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basis</title>
+</head>
+
+<body>
+
+    <!-- externe javascript via script src -->
+    <script src="scripts/js_basis.js"></script>
+
+    <!-- binnen de script tags kun je javascript gebruiken -->
+    <script>
+
+        // plaatsen op pagina via document.body
+        // document.body.textContent += "<p>Les 5</p>"; // string
+        document.body.innerHTML += "<p>Eerste zin</p>";
+        // liever niet meer met .write() werken maar momenteel lukt dit wel nog
+        document.write("<p>Deze is met .write</p>");
+
+        // plaatsen in de console
+        console.log("Dit is tekst voor de console");
+        // foute console.log
+        // console.log(Hallo);
+
+        // alert gebruiken voor pop-up
+        // alert("Waarschuwing! Er zit een virus op uw systeem!");
+
+    </script>
+
+</body>
+
+</html>
