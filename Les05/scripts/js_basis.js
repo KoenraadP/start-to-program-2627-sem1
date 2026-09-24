@@ -36,3 +36,39 @@ console.log(a); // 14
 // andere korte manier
 a += 1; // 15
 console.log(a);
+
+// tekst aan elkaar plakken
+let firstName = "Koenraad";
+let lastName = "Pecceu";
+console.log(firstName + " " + lastName);
+
+// gebruik van constante
+const pi = 3.14;
+let radius = 4;
+let circumference = 2 * radius * pi;
+console.log("De omtrek van een cirkel met straal "
+    + radius
+    + " is "
+    + circumference
+    + ".");
+document.body.innerHTML += "<p>" + circumference + "</p>";
+console.log(Math.PI);
+
+// html element koppelen aan constante
+const parName = document.getElementById("par-name");
+// data toevoegen aan element
+parName.innerHTML += "Koenraad ";
+// alternatief
+parName.textContent += "Pecceu";
+
+// gebruik van prompt als input (invoer)
+// let age = prompt("Hoe oud ben je?");
+// alert("Ok, je leeft al ongeveer "
+//     + (age * 365)
+//     + " dagen"
+// );
+
+let nr1 = prompt("Cijfer 1");
+let nr2 = prompt("Cijfer 2");
+console.log(nr1 + nr2);
+
