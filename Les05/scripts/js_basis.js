@@ -10,7 +10,7 @@ let height = 5;
 
 // variabele maken voor resultaat
 // en ook berekening doen
-let area = width * height;
+let area = width * heght;
 
 // resultaat tonen in console
 console.log(area);
