@@ -67,6 +67,7 @@ console.log(result);
 
 let today = new Date();
 let currentHour = today.getHours();
+console.log(currentHour);
 
 if (currentHour >= 6 && currentHour < 12) {
     console.log("Goedemorgen");
