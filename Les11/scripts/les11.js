@@ -29,3 +29,7 @@ document.body.innerHTML += list;
 //     console.log(firstName);
 //     i++;
 // }
+
+// random cijfer aanmaken van 1 tot en met 10
+let randomNumber = Math.floor(Math.random() * 10 + 1);
+console.log(randomNumber);
