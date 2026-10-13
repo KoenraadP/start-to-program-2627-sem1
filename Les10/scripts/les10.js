@@ -40,26 +40,21 @@ for (let i = 1; i <= 30; i += 2) {
 
 // aantal ogen op de dobbelsteen vastleggen
 const dice = 20;
-
 // eerste worp, random van 1 t/m 20
 let diceRoll = Math.floor(Math.random() * dice + 1);
-
 // als de eerste worp al de max was dan alert
 if (diceRoll === dice) {
     alert("De eerste worp was al onmiddellijk " 
             + dice
     )
 }
-
 // teller maken om bij te houden hoeveel keer we gegooid hebben
 let counter = 1;
-
 while (diceRoll < dice) {
     // optellen bij counter voor aantal keer
     counter++;
     diceRoll = Math.floor(Math.random() * dice + 1);
     console.log(diceRoll);
 }
-
 alert("Je hebt na " + counter + " keer " + dice + " gegooid."
 )
